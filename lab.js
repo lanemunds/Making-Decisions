@@ -65,7 +65,9 @@ let rain = true;
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
-for()
+// for(let i = 0; i < 10; i++){
+//   console.log('hello')
+// }
 
 ////////// PROBLEM 6 //////////
 
@@ -73,7 +75,9 @@ for()
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-//CODE HERE
+// for(let i = 1; i < 11; i++){
+//  console.log(`${i}`)
+// }
 
 ////////// PROBLEM 7 //////////
 
@@ -81,7 +85,9 @@ for()
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
-//CODE HERE
+// for(let i = 10; i >= 0; i--){
+//   console.log(`${i}`)
+// }
 
 
 ////////// PROBLEM 8 //////////
@@ -93,7 +99,10 @@ let passingScore = 7;
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
 */
 
-//CODE HERE
+// while(score < 7){
+//   console.log('your score is not high enough')
+//   score += 1
+// }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -104,18 +113,32 @@ let passingScore = 7;
 
 */
 
-//CODE HERE
+// let changeMyMind = true
 
+// if(changeMyMind === true){
+// changeMyMind = false
+// }else{
+//   changeMyMind = true
+//}
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
 
-//CODE HERE
+// if(changeMyMind !== true){
+//   changeMyMind = true
+// } console.log(changeMyMind)
+
 
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
 
 let z = 5;
+let j = z
+let i = j 
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
-//CODE HERE
+while(z > 0){
+  for(let i = z; i > 0; i--){
+console.log(`${i}`)
+  }
+z -= 1}
