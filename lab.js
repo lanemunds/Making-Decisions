@@ -56,6 +56,21 @@ let rain = true;
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
 */
 
+if (temperature > 80 && rain === true){
+  console.log('tee shirt and umbrella')
+}else if
+  (temperature < 80 && temperature > 60 && rain === true){
+    console.log('wear a rain jacket')
+  }else if (temperature < 60 && rain === true){
+    console.log('wear a  jacket and carry an umbrella')
+  }else if (temperature > 80 && rain === false){
+    console.log('wear a tee shirt and shorts')
+  }else if (temperature < 80 && temperature > 60 && rain === false){
+    console.log('wear a tee shirt and pants')
+  }else if (temperature < 60 && rain === false){
+    console.log('stay home')
+  }
+
 
 
 
@@ -137,8 +152,8 @@ let j = z
 let i = j 
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
-while(z > 0){
-  for(let i = z; i > 0; i--){
-console.log(`${i}`)
-  }
-z -= 1}
+// while(z > 0){
+//   for(let i = z; i > 0; i--){
+// console.log(`${i}`)
+//   }
+// z -= 1}
